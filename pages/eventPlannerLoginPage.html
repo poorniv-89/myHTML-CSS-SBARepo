@@ -5,50 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Fresca&display=swap" rel="stylesheet">
     <title>Login Page</title>
 </head>
 
 <body>
+    <style>
+        #login-form-ctnr{
+            display: flex;
+            justify-content: center;
+        }
+       .login-details label,input{
+            margin-top:1rem;
+       }
+       #signin-btn{
+       height:2rem;
+       width:5rem;
+       border-radius: .5rem;
+       text-decoration: none;
+
+       }
+
+
+    </style>
     <!-- Form to get username and password with input fields -->
     <div id="login-main-container">
-        <form>
-            <div id="header-container">
-                <div id="header-logo">
-                    <a href="./index.html"><img src="../images/balloons.png"></a>
-                    <a href="#">
-                        <h3>Ballons&bliss</h3>
-                    </a>
+        <div id="header-container">
+            <div id="header-logo">
+                <a href="./index.html"><img src="../images/balloons.png"></a>
+                <a href="./index.html">
+                    <h3>Ballons&bliss</h3>
+                </a>
+            </div>
+        </div>
+        <div id="login-form-ctnr">
+            <form>
+                <h3 style="margin: 2rem;"> Login Page</h3>
+                <div class="login-details">
+                    <label name="user-name">Username</label><br />
+                    <input type="text" name="Username-txtinput" placeholder="Enter your Username">
+                    <br /><br />
+                    <label name="password">Password</label><br />
+                    <input type="password" name="password-input" placeholder="Enter your password"><br /><br />
                 </div>
-            </div>
-            <h3> Login Page</h3>
-            <div id="login-details">
-                <label name="user-name">Username</label><br />
-                <input type="text" name="Username-txtinput" placeholder="Enter your Username">
+                <div class="login-details">
+                    <input type="checkbox" name="RememberMe">
+                    <label name="Remember Me">Remember Me</label>
+                    <a href="./index.html">Forgot your password?</a>
+                </div>
+                <br />
+                <!-- Sign In Button in place/Onclick event yet to be added-->
+                    <button id="signin-btn"><a href="./index.html">sign in</a></button>
                 <br /><br />
-                <label name="password">Password</label><br />
-                <input type="password" name="password-input" placeholder="Enter your password"><br /><br />
-            </div>
-            <div id="login-help">
-                <input type="checkbox" name="RememberMe">
-                <label name="Remember Me">Remember Me</label>
-                <a href="">Forgot your password?</a>
-            </div>
-            <br />
-            <!-- Sign In Button in place/Onclick event yet to be added-->
-            <div>
-                <button id="signin-btn">Sign In</button>
-            </div>
-            <br /><br />
-            <!-- New Members going to Sign up page with anchor tag -->
-            <div>
-                <label name="New-member">New Member?</label>
-                <a href="./signup.html">Create account</a>
-            </div>
-        </form>
+                <!-- New Members going to Sign up page with anchor tag -->
+                <div>
+                    <label name="New-member">New Member?</label>
+                    <a href="./index.html">Create account</a>
+                </div>
+            </form>
+        </div>
     </div>
     <div id="footer-container">
-        <a href="#">FAQs</a>
-        <a href="#">Contact Us</a>
+        <a href="./index.html">FAQs</a>
+        <a href="./index.html">Contact Us</a>
     </div>
 </body>
 
