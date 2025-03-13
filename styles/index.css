@@ -62,6 +62,9 @@ body{
     justify-content: flex-end;
     background-color:rgba(193, 182, 173, 0.293);
     height: 3rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 #template-container a>img{
