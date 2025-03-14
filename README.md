@@ -1,9 +1,9 @@
 
-**Description of website**
+**Description of the website**
   This birthday party planner/RSVP website lets hosts choose a theme, personalize it, and send invites to guests. 
   It keeps party planning organized by collecting RSVPs and offering tools to make the process stress-free.
 
-**TechnicaL specifications**
+**Technical specifications**
   The webpage is built using HTML to create forms for collecting user data and tables to display guest lists. 
   Images to create birthday invite templates and html tags like labels, inputs, buttons, dropdown box, checkbox, etc.
   CSS is used for styling, including transitions and flexbox layouts for a responsive design.
